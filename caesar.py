@@ -6,5 +6,5 @@ text = text.lower()
 code = ""
 for char in text:
     code = ord(char) + shift
-    code = chr(code)
-print(code)
+    newcode = chr(code)
+print(newcode)
